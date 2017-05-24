@@ -1,0 +1,26 @@
+{
+    "name": "royfj/aliyun-mns-sdk",
+    "type": "library",
+    "description": "Aliyun MNS SDK",
+    "version": "0.1.0",
+    "homepage": "http://www.aliyun.com/product/mns",
+    "authors": [
+        {
+            "name": "Royfj",
+            "email": "liguanghui2006@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "files": ["src/mns-autoloader.php"]
+    },
+    
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
